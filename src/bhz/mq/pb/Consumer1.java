@@ -19,6 +19,8 @@ public class Consumer1 {
 	private Session session;
 	private MessageConsumer consumer;
 	
+	
+	
 	public Consumer1(){
 		try {
 			factory = new ActiveMQConnectionFactory(
